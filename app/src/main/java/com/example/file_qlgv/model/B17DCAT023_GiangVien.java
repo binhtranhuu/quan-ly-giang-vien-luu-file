@@ -1,6 +1,8 @@
 package com.example.file_qlgv.model;
 
-public class B17DCAT023_GiangVien {
+import java.io.Serializable;
+
+public class B17DCAT023_GiangVien implements Serializable {
 
     private int id;
     private String name;
